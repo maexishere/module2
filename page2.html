@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <h2>Full History:</h2>
+    <a href="Introductory page.html">Main Page</a>
+    <p>In 1834 Natalya Pushkina, his wife, met a handsome French royalist émigré in Russian service. Young d'Anthes had
+        been pursuing her for two years, and eventually, his claims became so open and unabashed, that in the fall of
+        1836, it led to a scandal. Pushkin challenged d'Anthes to a duel. He retracted the challenge, however, when he
+        learned from rumors that d'Anthes was "really" in love with Natalya's sister, Ekaterina Goncharova. On 10
+        January 1837, their marriage took place, but Pushkin refused to attend the wedding or to receive the couple in
+        his home. After the marriage, d'Anthes resumed pursuing Natalya Pushkina with doubled tenacity. A duel between
+        Pushkin and d'Anthes finally took place on 27 January 1837. D'Anthes fired first, and Pushkin was mortally
+        wounded.</p>
+    <br>
+    <h4>Sign in to leave a message:</h4>
+    <form action="/actionpage.py" target="_self" method="post">
+        Name: <input type="text" name="name"><br>
+        Password: <input type="password" name="pwd"><br>
+        Message: <input type="text" name="msg"><br>
+        Date of Birth: <input type="date" name="dob"><br>
+        <table>
+            <tr>
+                <td valign="top">
+                    Choose something:<br>
+                    <select name="food">
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                      <option value="option3">Option 3</option>
+                      <option value="option4">Option 4</option>
+                    </select>
+                <td>
+                    Choose a first option:<br>
+                    <input type="radio" name="pmt" value="anonymous" checked>Be anonymous<br>
+                    <input type="radio" name="pmt" value="logged in">Stay logged in<br>
+                    <input type="radio" name="pmt" value="exit">Exit immediately after posting
+                </td>
+                <td valign="top">
+                    Choose a second option:<br>
+                    <input type="checkbox" name="ready" value="Bike">I am ready to receive an additional information<br>
+                    <input type="checkbox" name="willing" value="Car">I am willing to know more about poets
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
