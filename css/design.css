@@ -4,10 +4,11 @@ h1, h2 {
     font-family: 'Courier New';
     color: red;}
 body {
-    font-family: 'Calibri';}
-a:visited {color: green;}
+    font-family: 'Calibri';
+    background-color: white;}
+a:visited {color: rgb(155, 55, 158);}
 a:link {color: red;}
-a:hover {color: red;}
+a:hover {color: rgb(201, 189, 29);}
 a:active {color: green;}
 ul {
     list-style: square;}
